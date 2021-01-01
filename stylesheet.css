@@ -1,0 +1,276 @@
+body {
+font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 10;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-list li {
+  font-size: 20px;
+  float: left;
+  padding: 20px;
+  color: white;
+}
+
+.header-list a {
+  color: white;
+}
+
+.header-list a:hover {
+  color: red;
+}
+
+.header-list a:active {
+  color: maroon;
+}
+
+li {
+  list-style: none;
+}
+
+.header-right {
+  float: right;
+  padding: 20px;
+  color: red;
+}
+
+.header-right a {
+  font-size: 25px;
+　margin-right: 20px;
+  color: white;
+}
+
+.header-right a:hover {
+  color: red;
+}
+
+.header-right a:active {
+  color: maroon;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.icon:hover {
+  opacity: 0.9;
+}
+
+.top-wrapper {
+}
+
+.shamgod-photo {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.shamgod-background {
+  width: 100%;
+  background-size: cover;
+}
+
+.top-wrapper h1 {
+  position: absolute;
+}
+
+.main {
+}
+
+.copy-container {
+  background-color: black;
+  color: white;
+  /* height: 500px; */
+  margin-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.copy-container img {
+  float: left;
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  padding-bottom: 10px;
+}
+
+.copy-container h1{
+  font-size: 40px;
+  border-bottom: 1px solid white;
+  width: 40%;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 750px;
+  margin-right: 150px;
+}
+
+.shamgod-comment {
+  margin-left: 750px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.copy-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  /* padding-bottom: 30px; */
+}
+
+.fsbb-wrapper {
+  background-color: black;
+  color: white;
+  height: 500px;
+  position: relative;
+}
+
+.fsbb-wrapper img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  left: 800px;
+}
+
+.fsbb-wrapper h1 {
+  font-size: 35px;
+  border-bottom: 1px solid white;
+  width: 40%;
+  padding-top: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.fsbb-wrapper p {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 800px;
+  margin-bottom: 30px;
+}
+
+.shamgod-youtube {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  height: 450px;
+  text-align: center;
+}
+
+.shamgod-youtube h1 {
+  font-size: 35px;
+  border-bottom: 1px solid white;
+  width: 40%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.shamgod-youtube iframe {
+  margin: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.shamgod-youtube iframe:hover {
+  opacity: 0.9;
+  transform: scale(1.1, 1.1);
+  transition: 1s all;
+}
+
+.news {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  height: 600px;
+  position: relative;
+}
+
+.news h1 {
+  font-size: 35px;
+  border-bottom: 1px solid white;
+  width: 40%;
+  padding-top: 20px;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
+
+.news img {
+  width: 37%;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.news ul {
+  margin-left: 700px;
+  font-size: 20px;
+}
+
+.news li {
+  margin-bottom: 30px;
+}
+
+.contact {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  height: 500px;
+  text-align: center;
+}
+
+.contact h1 {
+  padding-top: 20px;
+  border-bottom: 1px solid white;
+  width: 40%;
+  margin: auto;
+}
+
+input,textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+}
+
+footer {
+  margin-top: 100px;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+}
+
+.footer-logo {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  text-align:center;
+}
+
+.footer-logo span {
+  font-size: 20px;
+  padding: 20px;
+}
