@@ -1,1 +1,1 @@
-# shamgod.github.io
+# shamgod
